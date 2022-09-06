@@ -1,2 +1,6 @@
 #!/bin/bash
+<<<<<<< HEAD
 printf "%s\n" {a..z}{a..z} | grep -v "oo"
+=======
+printf "%s\n" {a..Z}{a..z} | grep -V "oo"
+>>>>>>> 3f1c751169c2e2a08bd103cc8e2711759ce35e29
